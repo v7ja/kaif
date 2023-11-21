@@ -24,7 +24,7 @@ import psutil
 try:
     d = open("bio.txt").read()
     if not d:
-        d= "𝐃𝐨𝐧𝐭 𝐓𝐫𝐲 𝐖𝐢𝐭𝐡 : @FLOOD_KINGS"
+        d= "𝐃𝐨𝐧𝐭 𝐓𝐫𝐲 𝐖𝐢𝐭𝐡 : @ToGoLang"
 except:
         pass  
 try:    
@@ -56,7 +56,7 @@ r = redis.Redis()
 async def start(app, message):
     id = message.from_user.id
     if str(id) == own_id:
-           await app.send_video(message.chat.id,video="https://t.me/vd_d_dd/38",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐇𝐞𝐥𝐥,\n• 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐁𝐨𝐭 𝐓𝐚𝐤𝐞 𝐅𝐥𝐨𝐨𝐝\n• 𝐅𝐨𝐫 𝐀𝐫𝐚𝐛𝐢𝐜 : /ar\n• 𝐁𝐲 : 𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍''', reply_markup=ReplyKeyboardMarkup(
+           await app.send_video(message.chat.id,video="https://t.me/xx3bD/53",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐇𝐞𝐥𝐥,\n• 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐈𝐧 𝐁𝐨𝐭 𝐓𝐚𝐤𝐞 𝐅𝐥𝐨𝐨𝐝\n• 𝐅𝐨𝐫 𝐀𝐫𝐚𝐛𝐢𝐜 : /ar\n• 𝐁𝐲 : @c_7c7''', reply_markup=ReplyKeyboardMarkup(
           [
               ["⌞𝐈𝐍𝐅𝐎⌝","/start"],
               ["⌞𝐀𝐝𝐝 𝐀𝐜𝐜𝐨𝐮𝐧𝐭⌝","⌞𝐃𝐞𝐥𝐞𝐭𝐞 𝐀𝐜𝐜𝐨𝐮𝐧𝐭⌝"],
@@ -74,11 +74,11 @@ async def start(app, message):
           ])) 
            
     else:
-            await app.send_video(message.chat.id,video="https://t.me/vd_d_dd/37",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐓𝐡𝐢𝐬 𝐂𝐡𝐞𝐜𝐤𝐞𝐫 𝐅𝐨𝐫 𝐓𝐚𝐤𝐢𝐧𝐠 𝐅𝐥𝐨𝐨𝐝\n• 𝐁𝐲 ➞ : 𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍''',reply_markup = InlineKeyboardMarkup(
+            await app.send_video(message.chat.id,video="https://t.me/xx3bD/53",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐓𝐡𝐢𝐬 𝐂𝐡𝐞𝐜𝐤𝐞𝐫 𝐅𝐨𝐫 𝐓𝐚𝐤𝐢𝐧𝐠 𝐅𝐥𝐨𝐨𝐝\n• 𝐁𝐲 ➞ : 𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍''',reply_markup = InlineKeyboardMarkup(
            inline_keyboard = [
         [
-            InlineKeyboardButton(text="𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍", url="https://t.me/FLOOD_kINGS"),
-            InlineKeyboardButton(text="𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url="https://t.me/R_R_B0"),
+            InlineKeyboardButton(text="channel", url="https://t.me/ToGoLang"),
+            InlineKeyboardButton(text="𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫", url="https://t.me/c_7c7"),
         ],
         [
             InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫 𝐎𝐅 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭", url=f"tg://user?id={own_id}"),
@@ -89,7 +89,7 @@ async def start(app, message):
 async def start(app, message):
     id = message.from_user.id
     if str(id) == own_id:
-           await app.send_video(message.chat.id,video="https://t.me/vd_d_dd/38",caption=f'''• مرحبا, {message.from_user.first_name}\n• اهلا بك في بوت صيد الخاصيه\n• للغه الانجليزيه : /start \n• 𝐁𝐲 : 𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍''', reply_markup=ReplyKeyboardMarkup(
+           await app.send_video(message.chat.id,video="https://t.me/xx3bD/53",caption=f'''• مرحبا, {message.from_user.first_name}\n• اهلا بك في بوت صيد الخاصيه\n• للغه الانجليزيه : /start \n• 𝐁𝐲 : @c_7c7''', reply_markup=ReplyKeyboardMarkup(
           [
               ["⌝معلوماتك⌞","/start"],
               ["⌝اضف حساب⌞","⌝حذف حساب⌞"],
@@ -106,7 +106,7 @@ async def start(app, message):
               ["⌝حذف كل الحسابات⌞"],
           ])) 
     else:
-            await app.send_video(message.chat.id,video="https://t.me/vd_d_dd/37",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐓𝐡𝐢𝐬 𝐂𝐡𝐞𝐜𝐤𝐞𝐫 𝐅𝐨𝐫 𝐓𝐚𝐤𝐢𝐧𝐠 𝐅𝐥𝐨𝐨𝐝\n• 𝐁𝐲 ➞ : 𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍''',reply_markup = InlineKeyboardMarkup(
+            await app.send_video(message.chat.id,video="https://t.me/xx3bD/53",caption=f'''• 𝐇𝐢, {message.from_user.first_name}!\n• 𝐓𝐡𝐢𝐬 𝐂𝐡𝐞𝐜𝐤𝐞𝐫 𝐅𝐨𝐫 𝐓𝐚𝐤𝐢𝐧𝐠 𝐅𝐥𝐨𝐨𝐝\n• 𝐁𝐲 ➞ : @c_7c7''',reply_markup = InlineKeyboardMarkup(
            inline_keyboard = [
         [
             InlineKeyboardButton(text="𝐓𝐄𝐀𝐌 𝐍𝐄𝐎𝐍", url="https://t.me/FLOOD_kINGS"),
